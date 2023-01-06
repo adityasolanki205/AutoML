@@ -69,6 +69,7 @@ https://user-images.githubusercontent.com/56908240/211058129-78335d90-bc92-4b3b-
     
     vi. With this dataset Training takes around 8 hours. 
 
+https://user-images.githubusercontent.com/56908240/211068315-23dbcfbb-3176-473d-b8b0-beb7d973d657.mp4
 
 ### Step 3 - AutoML model Deployment
 
