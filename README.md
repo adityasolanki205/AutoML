@@ -17,15 +17,17 @@ For the last few years, I have been part of a great learning curve wherein I hav
 - [AutoML - Tabular](https://cloud.google.com/vertex-ai/docs/tabular-data/overview)
 
 
-## Code Cloning
+## Repo Cloning
 
 ```bash
     git clone https://github.com/adityasolanki205/AUTOML.git
 ```
 
-## Installation
+## Implementation
 
-Below are the steps to setup the enviroment and run the codes:
+Below are the steps to setup the enviroment and run the models:
+
+### Step 1 - Dataset Creation
 
 1. **Data Setup**: First the data setup has to be done. Download the [5 celebrity Dataset, Kaggle](https://www.kaggle.com/dansbecker/5-celebrity-faces-dataset). After the Download create one more sub folder in train and test folders for your own photos. Provide as diverse photos as you can find. 
 
