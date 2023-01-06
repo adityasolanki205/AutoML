@@ -36,9 +36,6 @@ Below are the steps to setup the enviroment and run the models:
 
 3. **Dataset Creation**: 
 
-![Dataset Creation](Dataset_creation.gif)
-
-
 https://user-images.githubusercontent.com/56908240/211057695-dc8ebdff-919e-45f5-a237-cc8f9bd3de7e.mp4
 
 
