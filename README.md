@@ -36,7 +36,7 @@ Below are the steps to setup the enviroment and run the models:
 
 3. **Dataset Creation**: 
 
-![Dataset Creation](gif/Dataset_creation.gif)
+![Dataset Creation](Dataset_creation.gif)
 
 ### Step 2 - AutoML model Training
 
