@@ -32,7 +32,7 @@ Below are the steps to setup the enviroment and run the models:
 
 1. **Data Selection**: First we will need a data for classification. Therefore We have selected Census income dataset which can downloaded from [UCI Census Income Dataset](https://archive.ics.uci.edu/ml/datasets/Census+Income). In this dataset we have to predict the income of an individual by looking a various attributes. 
 
-2. **Train and Test dataset creation**: Now we will divide the dataset into Train and Test for evaluation(Training and Testing while model creation will be done by GCP). For testing we have around 32250 instances in the dataset. We will take the last 2250 instances separately and treat it as testing dataset for model evaluation. We will create a Google cloud storage bucket in the region will create the model.
+2. **Train and Test dataset creation**: Now we will divide the dataset into Train and Test for evaluation(Training and Testing while model creation will be done by GCP). For testing we have around 32250 instances in the dataset. We will take the last 2250 instances separately and treat it as testing dataset for model evaluation. This data can be found here . We will create a Google cloud storage bucket in the region will create the model.
 
 3. **Dataset Creation**: 
 
