@@ -57,11 +57,6 @@ https://user-images.githubusercontent.com/56908240/211058129-78335d90-bc92-4b3b-
 
 1. **Model Training**: Now we will try to train the model.
 
-<<<<<<< Updated upstream
-    i. Click on 
-
-https://user-images.githubusercontent.com/56908240/211066038-ccfd253b-f580-4c16-a6ad-e9907d21555b.mp4
-=======
     i. Click on Train new model button.
     
     ii. Select Classification for objective.
@@ -72,9 +67,8 @@ https://user-images.githubusercontent.com/56908240/211066038-ccfd253b-f580-4c16-
     
     v. Provide Maximum node hours as per the requirement and enable early stopping and Click on Start Training.
     
-    vi. With this dataset Training takes around 8 hours.
+    vi. With this dataset Training takes around 8 hours. 
 
->>>>>>> Stashed changes
 
 ### Step 3 - AutoML model Deployment
 
