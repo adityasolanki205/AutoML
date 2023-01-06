@@ -38,6 +38,10 @@ Below are the steps to setup the enviroment and run the models:
 
 ![Dataset Creation](Dataset_creation.gif)
 
+
+https://user-images.githubusercontent.com/56908240/211057695-dc8ebdff-919e-45f5-a237-cc8f9bd3de7e.mp4
+
+
 ### Step 2 - AutoML model Training
 
 2. **Face Detection**: Now we need to detect a face in the dataset. To do that we will use [Multi-Task Cascaded Convolutional Neural Network](https://arxiv.org/abs/1604.02878) (MTCNN). This process will provide the co-ordinates of pixels to identify the face in the photo. Same process can be done to fetch more than one face from a photo with multiple people. 
