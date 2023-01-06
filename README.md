@@ -35,13 +35,21 @@ Below are the steps to setup the enviroment and run the models:
 2. **Train and Test dataset creation**: Now we will divide the dataset into Train and Test for evaluation(Training and Testing while model creation will be done by GCP). For testing we have around 32250 instances in the dataset. We will take the last 2250 instances separately and treat it as testing dataset for model evaluation. This data can be found [here](https://github.com/adityasolanki205/AUTOML/tree/main/Data) . We will create a Google cloud storage bucket by the name **automl-testing-table** in the region will create the model.
 
 3. **Dataset Creation**: 
-    i. Go to the Datasets tab in Vertex AI
+    
+    i. Go to the Vertex AI tab and click on "Create Dataset"
     
     ii. Select Tabular Datatype
     
-    iii. Select Regression/Classification
+    iii. Select Regression/Classification objective
     
     iv. Click on Create
+    
+    v. Now we can upload csv file from local machine or pull a csv file from Cloud storage or pull data from bigquery table. We will pull csv file from local machine.
+    
+    vi. Now we will also select the Cloud Storage where the csv file will exist for the process. Here it will be **automl-testing-table**
+    
+    vii. Click on continue. This will upload the file in Datasets tab in Vertex AI
+    
 
 https://user-images.githubusercontent.com/56908240/211058129-78335d90-bc92-4b3b-8308-fc570aa8b6a9.mp4
 
