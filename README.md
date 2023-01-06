@@ -1,10 +1,11 @@
 # AutoML
 
-This is a repository for **learning and implementation** of AutoML service on Google Cloud. In this repository we will learn to train and deploy an AutoML model for tabular data. The complete process is divided into 3 parts:
+This is a repository for **learning and implementation** of AutoML service on Google Cloud. In this repository we will learn to train and deploy an AutoML model for tabular data. The complete process is divided into43 parts:
 
 1. **Dataset Creation**
 2. **AutoML model Training**
-3. **AutoML model deployment and testing**
+3. **AutoML model Deployment**
+4. **AutoML model Testing**
 
 
 ## Motivation
@@ -29,7 +30,15 @@ Below are the steps to setup the enviroment and run the models:
 
 ### Step 1 - Dataset Creation
 
-1. **Data Setup**: First the data setup has to be done. Download the [5 celebrity Dataset, Kaggle](https://www.kaggle.com/dansbecker/5-celebrity-faces-dataset). After the Download create one more sub folder in train and test folders for your own photos. Provide as diverse photos as you can find. 
+1. **Data Selection**: First we will need a data for classification. Therefore We have selected Census income dataset which can downloaded from [UCI Census Income Dataset](https://archive.ics.uci.edu/ml/datasets/Census+Income). In this dataset we have to predict the income of an individual by looking a various attributes. 
+
+2. **Train and Test dataset creation**: Now we will divide the dataset into Train and Test for evaluation(Training and Testing while model creation will be done by GCP). For testing we have around 32250 instances in the dataset. We will take the last 2250 instances separately and treat it as testing dataset for model evaluation. We will create a Google cloud storage bucket in the region will create the model.
+
+3. **Dataset Creation**: 
+
+![](Dataset_creation.gif)
+
+### Step 2 - AutoML model Training
 
 2. **Face Detection**: Now we need to detect a face in the dataset. To do that we will use [Multi-Task Cascaded Convolutional Neural Network](https://arxiv.org/abs/1604.02878) (MTCNN). This process will provide the co-ordinates of pixels to identify the face in the photo. Same process can be done to fetch more than one face from a photo with multiple people. 
 
@@ -48,6 +57,7 @@ Below are the steps to setup the enviroment and run the models:
     # Use MTCNN object to detect faces using detect_faces() method
     faces = MTCNN.detect_faces(image)
 ```
+### Step 3 - AutoML model Deployment
 
 3. **Face Embeddings**: After face extraction we will fetch the face embedding using [FaceNet](https://github.com/davidsandberg/facenet). Downloaded the model [here](https://drive.google.com/drive/folders/1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn). After running this code for all the faces in train and test folders, we can save the embeddings using [np.saves_compressed](https://numpy.org/doc/stable/reference/generated/numpy.savez_compressed.html)
 
@@ -58,6 +68,8 @@ Below are the steps to setup the enviroment and run the models:
     # Use the Predict method to find the Embeddings in the face. Output would be 1D vector of 128 embeddings of that face
     embeddings = model.predict(samples)
 ```
+
+### Step 4 - AutoML model Testing
 
 4. **Training the SVM model on these Embeddings**:  Now we will train SVM model over the embeddings to predict the face of a person.
 
