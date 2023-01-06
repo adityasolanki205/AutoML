@@ -49,30 +49,18 @@ Below are the steps to setup the enviroment and run the models:
     vi. Now we will also select the Cloud Storage where the csv file will exist for the process. Here it will be **automl-testing-table**
     
     vii. Click on continue. This will upload the file in Datasets tab in Vertex AI
-    
 
 https://user-images.githubusercontent.com/56908240/211058129-78335d90-bc92-4b3b-8308-fc570aa8b6a9.mp4
 
 
 ### Step 2 - AutoML model Training
 
-2. **Face Detection**: Now we need to detect a face in the dataset. To do that we will use [Multi-Task Cascaded Convolutional Neural Network](https://arxiv.org/abs/1604.02878) (MTCNN). This process will provide the co-ordinates of pixels to identify the face in the photo. Same process can be done to fetch more than one face from a photo with multiple people. 
+1. **Model Training**: Now we will try to train the model.
 
-```python
-    # All the codes are written in Jupyter Notebooks
+    i. Click on 
 
-    # Install MTCNN
-    !pip install mtcnn
-    
-    # To Preprocess the image install PIL 
-    !pip install PIL
-    
-    # Preprocess the image into 'RGB' and convert it into numpy array
-    image = np.asarray(image.convert('RGB'))
-    
-    # Use MTCNN object to detect faces using detect_faces() method
-    faces = MTCNN.detect_faces(image)
-```
+
+
 ### Step 3 - AutoML model Deployment
 
 3. **Face Embeddings**: After face extraction we will fetch the face embedding using [FaceNet](https://github.com/davidsandberg/facenet). Downloaded the model [here](https://drive.google.com/drive/folders/1pwQ3H4aJ8a6yyJHZkTwtjcL4wYWQb7bn). After running this code for all the faces in train and test folders, we can save the embeddings using [np.saves_compressed](https://numpy.org/doc/stable/reference/generated/numpy.savez_compressed.html)
