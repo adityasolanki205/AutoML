@@ -89,7 +89,7 @@ https://user-images.githubusercontent.com/56908240/211163203-d713330e-d6cb-4097-
 
 ### Step 4 - AutoML model Testing
     
--  **Online Model Prediction**:
+-  **Online Prediction**:
     
     i. Goto new endpoint created.
     
@@ -99,7 +99,7 @@ https://user-images.githubusercontent.com/56908240/211163203-d713330e-d6cb-4097-
 
 https://user-images.githubusercontent.com/56908240/211163159-c54d2ec2-6958-4364-b8d0-4856330d63fe.mp4
 
--  **Batch Model Prediction**:
+-  **Batch Prediction**:
 
 
 
