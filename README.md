@@ -77,15 +77,31 @@ https://user-images.githubusercontent.com/56908240/211068315-23dbcfbb-3176-473d-
 
     i. Goto model repository.
     
-    ii. Click on the Trained Model
+    ii. Click on the Trained Model and its relavant version.
     
-    iii. 
+    iii. Click on Deploy and Test button.
+    
+    iv. Click on Deploy on endpoint.
+    
+    v. Fill in all the details as per the requirement.
 
 https://user-images.githubusercontent.com/56908240/211163203-d713330e-d6cb-4097-bd32-715b8fb0497c.mp4
 
 ### Step 4 - AutoML model Testing
+    
+-  **Online Model Prediction**:
+    
+    i. Goto new endpoint created.
+    
+    ii. Below the endpoint we will see test your model tab with prefilled details. Either prefilled values could be used  to test the model, or we can provide our own values. There is a way to test through API as well. 
+    
+    iii. As soon as we click on Predict an output will be displayed along with confidence percentage
 
 https://user-images.githubusercontent.com/56908240/211163159-c54d2ec2-6958-4364-b8d0-4856330d63fe.mp4
+
+-  **Batch Model Prediction**:
+
+
 
 ## Credits
 1. David Sandberg's facenet repo: [https://github.com/davidsandberg/facenet](https://github.com/davidsandberg/facenet)
