@@ -81,10 +81,11 @@ https://user-images.githubusercontent.com/56908240/211068315-23dbcfbb-3176-473d-
     
     iii. 
 
+https://user-images.githubusercontent.com/56908240/211163203-d713330e-d6cb-4097-bd32-715b8fb0497c.mp4
 
 ### Step 4 - AutoML model Testing
 
-
+https://user-images.githubusercontent.com/56908240/211163159-c54d2ec2-6958-4364-b8d0-4856330d63fe.mp4
 
 ## Credits
 1. David Sandberg's facenet repo: [https://github.com/davidsandberg/facenet](https://github.com/davidsandberg/facenet)
