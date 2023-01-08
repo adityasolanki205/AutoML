@@ -101,10 +101,18 @@ https://user-images.githubusercontent.com/56908240/211163159-c54d2ec2-6958-4364-
 
 -  **Batch Prediction**:
 
+    i. Create a new folder in **automl-testing-table** bucket that we created previously.
+    
+    ii. Save the test file we created previously(remove the Target Label "Salary").
+    
+    iii. Now in Vertex AI goto Model registry and click on Create Batch Prediction.
+    
+    iv. Provide path to test file in the required column. Also provide output path where the output will be saved.
+    
+    v. Click on continue and create. When the Prediction job completes , a mail will be received.
+    
 https://user-images.githubusercontent.com/56908240/211206708-84aa8ec8-a812-4774-991c-d8d5f38357b9.mp4
 
 ## Credits
-1. David Sandberg's facenet repo: [https://github.com/davidsandberg/facenet](https://github.com/davidsandberg/facenet)
-2. Tim Esler's Git repo:[https://github.com/timesler/facenet-pytorch](https://github.com/timesler/facenet-pytorch)
-3. Akash Nimare's README.md: https://gist.github.com/akashnimare/7b065c12d9750578de8e705fb4771d2f#file-readme-md
-4. [Machine learning mastery](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)
+1. Akash Nimare's README.md: https://gist.github.com/akashnimare/7b065c12d9750578de8e705fb4771d2f#file-readme-md
+2. AutoML tables: https://cloud.google.com/vertex-ai/docs/tabular-data/overview
