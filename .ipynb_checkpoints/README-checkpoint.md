@@ -21,7 +21,7 @@ For the last few years, I have been part of a great learning curve wherein I hav
 ## Repo Cloning
 
 ```bash
-    git clone https://github.com/adityasolanki205/AUTOML.git
+    git clone https://github.com/adityasolanki205/AutoML.git
 ```
 
 ## Implementation
@@ -112,6 +112,20 @@ https://user-images.githubusercontent.com/56908240/211163159-c54d2ec2-6958-4364-
     v. Click on continue and create. When the Prediction job completes , a mail will be received.
     
 https://user-images.githubusercontent.com/56908240/211206708-84aa8ec8-a812-4774-991c-d8d5f38357b9.mp4
+
+### Step 5 - Clean up Optional
+
+-  **Batch Prediction Job** : Delete the Batch Predition Job
+
+-  **Endpoint** : To delete endpoint, first remove the endpoint from the model and then delete the endpoint
+
+-  **Model** : Delete the Model
+
+-  **Trainig Job** : Delete the training job from the training pipelines tab
+
+-  **Dataset** : Delete the Training Dataset from Dataset tab
+
+-  **Bucket** : Delete all the buckets created for this process.
 
 ## Credits
 1. Akash Nimare's README.md: https://gist.github.com/akashnimare/7b065c12d9750578de8e705fb4771d2f#file-readme-md
