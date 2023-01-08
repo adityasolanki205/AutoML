@@ -101,7 +101,7 @@ https://user-images.githubusercontent.com/56908240/211163159-c54d2ec2-6958-4364-
 
 -  **Batch Prediction**:
 
-
+https://user-images.githubusercontent.com/56908240/211206708-84aa8ec8-a812-4774-991c-d8d5f38357b9.mp4
 
 ## Credits
 1. David Sandberg's facenet repo: [https://github.com/davidsandberg/facenet](https://github.com/davidsandberg/facenet)
