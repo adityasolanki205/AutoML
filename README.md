@@ -1,6 +1,6 @@
 # AutoML
 
-This is a repository for **learning and implementation** of AutoML service on Google Cloud. In this repository we will learn to train and deploy an AutoML model for tabular data. The complete process is divided into43 parts:
+This is a repository for **learning and implementation** of AutoML service on Google Cloud. In this repository we will learn to train and deploy an AutoML model for tabular data. The complete process is divided into 4 parts:
 
 1. **Dataset Creation**
 2. **AutoML model Training**
